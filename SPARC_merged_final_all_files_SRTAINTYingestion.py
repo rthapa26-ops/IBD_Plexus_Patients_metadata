@@ -3,7 +3,7 @@ import os            # Import os for file path checking
 
 # --- Configuration ---
 # Path to  already created combined long-format CSV file
-INPUT_CSV_PATH = "/home/ec2-user/SPARC_Full_Cohort_Long_Format_COMBINED_CLEANED_VARS.csv"
+INPUT_CSV_PATH = "/home/ec2-user/2025-09-19_Full Cohort September/2025-09-19_Full Cohort September/SPARC_Full_Cohort_Long_Format_COMBINED_CLEANED_VARS.csv"
 KEY_COLUMN = 'DEIDENTIFIED_MASTER_PATIENT_ID'  # Column identifying unique patients
 
 # --- Output Files ---

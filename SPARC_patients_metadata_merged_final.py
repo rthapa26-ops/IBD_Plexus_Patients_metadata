@@ -161,13 +161,11 @@ def process_excel_to_single_long_dataframe(file_path: str, sheets_to_process: Li
 # Execution Block
 # =====================================================================
 
-file_path = "/home/ec2-user/2025-02-17_SPARC_Full Cohort February_REPORTS.xlsx"
-output_csv_path = "/home/ec2-user/SPARC_Full_Cohort_Long_Format_COMBINED_CLEANED_VARS.csv"
+file_path = "/home/ec2-user/2025-09-19_Full Cohort September/2025-09-19_Full Cohort September/2025-09-19_SPARC_Full Cohort September_REPORTS.xlsx"
+output_csv_path = "/home/ec2-user/2025-09-19_Full Cohort September/2025-09-19_Full Cohort September/SPARC_Full_Cohort_Long_Format_COMBINED_CLEANED_VARS.csv"
 
 sheets_to_process = [
-    'SUMMARY_ENROLLMENT', 'SUMMARY_OMICS', 'SUMMARY_BIOSAMPLE', 
-    'SUMMARY_ENDOSCOPY', 'MEDICATION_OMICS', 'MEDICATION_ENROLLMENT', 
-    'MEDICATION_BIOSAMPLE', 'MED_JOURNEY'
+    'SUMMARY_ENROLLMENT', 'SUMMARY_OMICS', 'SUMMARY_ENDOSCOPY', 'MEDICATION_OMICS', 'MEDICATION_ENROLLMENT', 'MEDICATION_ENDOSCOPY', 'MED_JOURNEY'
 ]
 
 # Process the Excel file
